@@ -1,0 +1,4 @@
+com\admin\cliente\admincliente\model\Produc.class
+com\admin\cliente\admincliente\repository\ProductRep.class
+com\admin\cliente\admincliente\controller\ProductController.class
+com\admin\cliente\admincliente\AdminClienteApplication.class
