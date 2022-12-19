@@ -1,22 +1,17 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    instance:
+      hostname:localhost
 
 management:
   endpoints:
     web:
      exposure:
        include: "*"
-#spring:
-#  datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    password: admin@123
-#    url: jdbc:mysql://localhost:8889/springAdmin?allowPublicKeyRetrieval=true&useSSL=false
-#    username: root
-#  jpa:
-#    hibernate:
-#      ddl-auto: create
- #   properties:
-#     hibernate:
-#        dialect: org.hibernate.dialect.MySQL5Dialect
-#      show-sql: true
 
 spring:
   boot:
@@ -30,3 +25,4 @@ logging:
     name: product-service.log
     max-history: 20
     max-size: 20MB
+
